@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Little Light Africa, Empowering The Powerless. This is A non-profitable organization brought together with love to help the less priviledge">
+    <meta name="keywords" content="less, help, need, africa, little, empower, power, the, non-profit, priviledge, light">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Poppins:300,300i,400,500,600,700,800,900,900i%7CRoboto:400%7CRubik:100,400,700">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web (1)/fontawesome-free-6.4.2-web/css/all.css">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <title>Little light Africa/ contact us</title>
+</head>
+<body>
+    
+
+     <!-- Page loading -->
+     <div class="loader container-fluid">
+      <img src="images/logo.png" alt="loading logo" width="200">
+  </div> 
+
+    
+    
+<!-- Header -->
+<header>
+    
+            <div class="logo">
+                <div class="menu-icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <span class="menu"></span>
+                    <span class="menu"></span>
+                    <span class="menu"></span>
+                </div>
+    
+    
+                <div class="logoimg">
+                    <img src="images/logo.png" alt="Little Light Logo" width="70">
+                </div>
+            </div>
+    
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+    
+            <a href="#"><button class="donate" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Donate</button></a>
+    
+    
+            <!-- Offcanvas For Mobile View -->
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                            <a href="index.html">Home</a>
+                            <a href="about.html">About us</a>
+                            <a href="contact.html" class="active">Contact</a>
+                        <br><br>
+                        <a href="#" class="btn donate" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Donate</a>
+                    </div>
+                  </div>
+</header>
+
+
+<!-- Donation POP Out -->
+<div class="container-fluid">
+  <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Copy Account Details</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Make Payment to the account details below and click on the proceed button to upload your payment proof <br><br>
+  
+  
+          <div class="details">
+              <span>Account Name: </span><br>
+                  <div class="copy-details">
+                  <span class=" lead">LLA</span>
+              </div>
+          </div><br>
+  
+          <div class="details">          
+              <span>Bank Name: </span><br>
+              <div class="copy-details">
+                  <span class=" lead">Moniepoint</span>
+              </div>
+          </div><br>
+  
+  
+          <div class="details">
+            <span>Account Number: </span><br>
+              <div class="copy-detail">
+                <textarea cols="25" rows="1" id="accountNumber" class=" lead" disabled>6445542218</textarea>
+                  <button class="btn btn-secondary copy-btn"><i class="fa fa-copy"></i></button>
+              </div>
+            </span>
+          </div><br>
+  
+          
+            <!-- Success Alert -->
+              <div class="alert alert-success copy-alert" role="alert">
+                  <i class="fa fa-clipboard-check"></i> Account Succesfully Copied!! You can Make Your Payment
+              </div>
+  
+  
+        </div>
+          <div class="modal-footer">
+            <button class="btn btn-warning" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Proceed</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Upload Payment Proof</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+  
+  
+            <form class="g-3 payment-form">
+              <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+                  <label for="floatingPassword">Account Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="file" class="form-control" id="floatingInput" placeholder="Upload Payment Proof">
+                  <label for="floatingInput">Upload Proof</label>
+                </div>
+            </form>
+  
+            <div class="alert alert-success text-center Thanks-alert" role="alert">
+              <i class="fa fa-circle-check fa-4x"></i><br><br> Thank You for Your Donation to the less priviledge, your Payment will be confirmed as soon as possible
+          </div>
+  
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" id="upload">Upload</button>
+            <button type="button" class="btn btn-secondary close-pop" data-bs-dismiss="modal" aria-label="Close">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+<!-- Contact Form -->
+<div class="contact-us-form p-4">
+    <form action="https://formsubmit.co/adedeji12334@gmail.com" method="POST"  class="row g-3 needs-validation p-5 Contact-form" novalidate>
+        <h1 class="display-2 text-center p-2">Contact Us</h1>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">First name</label>
+          <input type="text" name="First Name" class="form-control" id="validationCustom01" required>
+          <div class="valid-feedback">
+            <i class="fa fa-circle-check"></i>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Last name</label>
+          <input type="text" name="Last Name" class="form-control" id="validationCustom02" required>
+          <div class="valid-feedback">
+            <i class="fa fa-circle-check"></i>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustomEmail" class="form-label">Email Address</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="email" name="Email Address" class="form-control" id="validationCustomEmail" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Please Input An Email Address
+            </div>
+            <div class="valid-feedback">
+                <i class="fa fa-circle-check"></i>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <label for="validationCustom03" class="form-label">Address</label>
+          <input type="text" name="Home Address" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Please provide a Address
+          </div>
+          <div class="valid-feedback">
+            <i class="fa fa-circle-check"></i>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <label for="validationCustom05" class="form-label">Zip</label>
+          <input type="text" name="Zip Code" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Please provide a valid zip.
+          </div>
+          <div class="valid-feedback">
+            <i class="fa fa-circle-check"></i>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <label for="validationCustom06" class="form-label">Message</label>
+          <textarea rows="4" name="Message" class="form-control" id="validationCustom06" required></textarea>
+          <div class="invalid-feedback">
+            Please Write Your Message
+          </div>
+          <div class="valid-feedback">
+            <i class="fa fa-circle-check"></i>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+        <input type="hidden" name="_cc" value="littlelightafrica@gmail.com">
+        <input type="hidden" name="_captcha" value="false">
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit" id="submit-contact">Submit form</button>
+        </div>
+      </form>
+      
+      
+</div>
+
+
+    <!-- footer -->
+    <div class="footer text-center p-2">
+        <small>&copy; Copywrite Little Light Africa <span class="updateTime"></span></small>
+    </div>
+
+
+
+    <script src="fontawesome-free-6.4.2-web (1)/fontawesome-free-6.4.2-web/js/all.js"></script>
+    <script src="bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
